@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+.keyboard{
+    padding: 25px;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px, rgba(255, 255, 255, 0.5) -3px -3px 10px -5px ;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background-color: #222;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 10px;
+    box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px, rgba(255, 255, 255, 0.5) -3px -3px 10px -5px ;
+    color: #fff;
+    border: none;
+}
